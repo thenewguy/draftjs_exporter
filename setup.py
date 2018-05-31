@@ -34,8 +34,11 @@ dependencies['testing'] = [
     'isort==4.2.5',
 ] + dependencies['html5lib'] + dependencies['lxml']
 
+'''
 with open('README.md') as f:
     long_description = f.read()
+'''
+long_description = 'confirm issue'
 
 setup(
     name='draftjs_exporter',
